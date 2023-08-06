@@ -5,7 +5,7 @@
       body {
         background-image: url(assets/pictures/myphotoblack.png);
         background-repeat: no-repeat;
-        background-size: 1200px;
+        background-size: 100%;
         padding: 0px 5px 0px 5px;
         background-color: black;
         color: white;
@@ -36,7 +36,7 @@
       
 
       .logo {
-        background-color: #333;
+        background-color: transparent;
       }
 
       .aynorm {
@@ -136,5 +136,5 @@
       }
 
       .social-med {
-        width: 30%;
+        width: 30px;
       }
