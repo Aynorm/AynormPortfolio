@@ -91,21 +91,27 @@
       }
 
       .skills {
-        width: 110px;
+        width: 80px;
         border-radius: 50%;
-        height: 110px;
-        background-color: green;
+        height: 80px;
+        border: 5px solid red
       }
       .skills-pag {
-        font-size: 35px;
-          font-weight: 500;
-          margin-left: 25px;
-          margin-top: -5px;
-          
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 14px;
+        margin-top: 5px; 
       }
+
+      .skills-span {
+        font-size: 18px;
+        font-weight: 900;
+        
+      }
+
       .skills:hover{
         background-color: white;
-        color: black;
+        color: red;
       }
 
       .profession-logo {
