@@ -10,6 +10,7 @@
         background-color: transparent;
         overflow: hidden;
         color: white;
+        background-color: #333;
       }
 
       body {
@@ -112,6 +113,12 @@
       .skills:hover{
         background-color: white;
         color: red;
+      }
+
+      .my-client-text {
+        font-weight: lighter;
+        font-size: 16px;
+        line-height: 40px
       }
 
       .profession-logo {
