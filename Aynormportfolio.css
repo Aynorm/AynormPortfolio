@@ -10,7 +10,7 @@
        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
        flex-wrap: wrap;
        padding: 10px;
-       overflow: hidden;
+       overflow-x: auto;
        width: auto;
        
       }
