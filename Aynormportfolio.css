@@ -4,21 +4,22 @@
       }
 
       .nav-ba {
-       background-color: green;
+       background-color: transparent;
        font-size: 1.25rem;
        display: grid;
-       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-       flex-wrap: wrap;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
        padding: 10px;
        overflow-x: auto;
        width: auto;
+       align-items: center;
+       text-align: center;
        
       }
 
       .nav-barr {
         font-size: 1.2rem;
         margin-left: 20px;
-        background-color: blue;
+        background-color: transparent;
       }
 
       body {
