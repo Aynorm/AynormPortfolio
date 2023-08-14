@@ -3,14 +3,22 @@
         padding: 0%;
       }
 
+      .nav-ba {
+       background-color: green;
+       font-size: 1.25rem;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+       flex-wrap: wrap;
+       padding: 10px;
+       overflow: hidden;
+       width: auto;
+       
+      }
+
       .nav-barr {
-        text-align: center;
-        font-size: 17px;
-        padding: 14px 16px;
-        background-color: transparent;
-        overflow: hidden;
-        color: white;
-        background-color: #333;
+        font-size: 1.2rem;
+        margin-left: 20px;
+        background-color: blue;
       }
 
       body {
@@ -62,7 +70,7 @@
       }
 
       .paragraph-w {
-        font-size: 25px;
+        font-size: 20px;
         font-weight: lighter;
         text-align: center;
       }
@@ -77,18 +85,21 @@
       }
 
       .good-div {
-        margin-left: 0px;
+        margin-left: 15px;
         width: 100%;
         max-width: 380px;
         gap: 30px;
-        margin-left: 15px;
+        margin-top: 5px;
       }
 
       .goods-name {
         margin-top: -80p;
         font-size: 23px;
         font-family: roboto;
-        margin-left: 10%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0%;
+       background-color: black;
       }
 
       .skills {
